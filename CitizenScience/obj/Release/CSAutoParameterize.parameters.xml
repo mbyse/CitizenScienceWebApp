@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="dbCitizenScienceEntities-Web.config Connection String" description="dbCitizenScienceEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.SightingsModel.csdl|res://*/Models.SightingsModel.ssdl|res://*/Models.SightingsModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\dbCitizenScience.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mbyse\\Documents\\Visual\ Studio\ 2017\\Projects\\CitizenScience\\CitizenScience\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='dbCitizenScienceEntities']/@connectionString" />
+  </parameter>
+  <parameter name="SightingsEntities-Web.config Connection String" description="SightingsEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.SightingsModel.csdl|res://*/Models.SightingsModel.ssdl|res://*/Models.SightingsModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Sightings.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mbyse\\Documents\\Visual\ Studio\ 2017\\Projects\\CitizenScience\\CitizenScience\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='SightingsEntities']/@connectionString" />
+  </parameter>
+</parameters>

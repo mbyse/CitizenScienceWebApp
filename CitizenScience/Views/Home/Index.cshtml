@@ -1,0 +1,51 @@
+﻿<link href="/Content/IndexStyleSheet.css" rel="stylesheet" />
+<div class="jumbotron">
+       <h1>Project Flicker</h1>
+       <p class="lead">A Citizen Science ornthology project.</p>
+       <img class="img-rounded" id="flickerImg" src="http://audubonportland.org/images/edu/kids-guide/NorthernFlickerNestL.jpg" alt="Flicker"/>
+</div>
+
+<div class="container"></div>
+<div id="maincontent">
+    <h2>Contribute to the Project</h2>
+    <h4>Click on the button below to add your data:</h4>
+    <button class="btn" id="addButton" data-bind="click: $root.addSighting">Add Your Sighting</button>
+    <br />
+    <table>
+        <thead>
+                <tr>
+                <th>Date</th>
+                <th>Number of Birds</th>
+                <th>Location Type</th>
+                <th>Your Name</th> 
+                <th>&nbsp;</th>               
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: sightings">
+            <tr>
+                <td><input data-bind="value: date" /></td>
+                <td><input data-bind="value: count"/></td>
+                <td><select data-bind="options: $root.location, value: location, optionsText:'locationName'"></select></td>
+                <td><input data-bind="value: name" /></td>
+                <td><button class="btn-xs" data-bind="click: $root.removeSighting"><span class="glyphicon glyphicon-trash"/></button></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="saveButton" class="btn" data-bind="visible: saveButton, click:$root.Submit">Save</button>
+    <br />
+    <div data-bind="visible: success"><span id="success">Thank you for your submission!</span></div>
+</div>
+
+<div id="about">
+    <h4>About Us</h4>
+    <p> We are a group of bird enthusiasts interested in building and maintaining habitats for all bird species. 
+    We are currently focused on the Northern Flicker, but plan to expand our citizen scientist project to other species.
+    Thank you for your support!
+    </p>
+</div>
+
+      
+
+   
+
+

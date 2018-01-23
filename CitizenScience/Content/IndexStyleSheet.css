@@ -1,0 +1,108 @@
+﻿body {
+    background-color: #3A2E39;
+}
+
+.navbar{
+    align-content: center;
+}
+
+.jumbotron {
+    background-color: #fed15e;
+}
+
+#addButton {
+    background-color: #cb2631;
+    color: #fff;
+    border:2px solid #3A2E39;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px #808080;
+}
+
+#addButton:hover {
+    background-color: #fff;
+    color: #cb2631;
+    border: 2px solid #3A2E39;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px #808080;
+}
+
+#saveButton {
+    background-color: #152614;
+    color: #fff;
+    border: 2px solid #3A2E39;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px #808080;
+}
+
+#saveButton:hover {
+    background-color: #fff;
+    color: #152614;
+    border: 2px solid #3A2E39;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px #808080;
+}
+
+#success {
+    background-color: #cb2631;
+    color: #fff;
+    font-size:large;
+    padding: 10px;
+
+}
+
+tbody {
+    align-content:center;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #25283d;
+    border:5px solid #25283d;
+    border-radius: 5px;
+    color: #fff;
+}
+
+th {
+    align-content: center;
+    padding-left: 5px;
+}
+
+td {
+    margin:5px;
+}
+
+#flickerImg {
+    max-height: 200px;
+    box-shadow:inherit;
+}
+
+#deleteImg {
+    max-width: 20px;
+}
+
+
+#maincontent {
+    background-color: #ffffff;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: #000;
+    min-width: 570px;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+
+#about {
+    border-left: 10px solid #fed15e;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+}
